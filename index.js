@@ -18,10 +18,19 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var array = [];
-     n=0
+     n=0;
      while (n<4) {
      array.push(facts[n] + "!!!");
      n++;
      }
   return array;  
+}
+function iLoveTheBeatles(n){
+ var array = [];
+  do {
+    n=array.push("i love beatles");
+    n++;
+  }
+  while(n<15);
+   return array;
 }
